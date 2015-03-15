@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B5D26394-F3B9-45BE-8649-D2B3F47F86E3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BangaloreGuide</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>639F596B0ACAD8FAC9EE43F1DED19BF57CA842AC</key>
+		<string>https://github.com/saibandla/Bangalore-Guide.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BangaloreGuide/BangaloreGuide.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>639F596B0ACAD8FAC9EE43F1DED19BF57CA842AC</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/saibandla/Bangalore-Guide.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>639F596B0ACAD8FAC9EE43F1DED19BF57CA842AC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>639F596B0ACAD8FAC9EE43F1DED19BF57CA842AC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Bangalore-Guide</string>
+		</dict>
+	</array>
+</dict>
+</plist>

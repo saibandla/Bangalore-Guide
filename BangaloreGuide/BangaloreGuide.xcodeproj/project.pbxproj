@@ -1,0 +1,658 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6CD5EBC91AB5586E00D41F8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD5EBC81AB5586E00D41F8F /* main.m */; };
+		6CD5EBCC1AB5586E00D41F8F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD5EBCB1AB5586E00D41F8F /* AppDelegate.m */; };
+		6CD5EBCF1AB5586E00D41F8F /* BangaloreGuide.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6CD5EBCD1AB5586E00D41F8F /* BangaloreGuide.xcdatamodeld */; };
+		6CD5EBD71AB5586E00D41F8F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CD5EBD61AB5586E00D41F8F /* Images.xcassets */; };
+		6CD5EBDA1AB5586E00D41F8F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CD5EBD81AB5586E00D41F8F /* LaunchScreen.xib */; };
+		6CD5EBE61AB5586E00D41F8F /* BangaloreGuideTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD5EBE51AB5586E00D41F8F /* BangaloreGuideTests.m */; };
+		6CD5EBF61AB558E500D41F8F /* customCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD5EBF01AB558E500D41F8F /* customCell.m */; };
+		6CD5EBF71AB558E500D41F8F /* customCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CD5EBF11AB558E500D41F8F /* customCell.xib */; };
+		6CD5EBF81AB558E500D41F8F /* DeatilsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD5EBF31AB558E500D41F8F /* DeatilsTableViewController.m */; };
+		6CD5EBF91AB558E500D41F8F /* DeatilsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CD5EBF41AB558E500D41F8F /* DeatilsTableViewController.xib */; };
+		6CD5EBFA1AB558E500D41F8F /* Define Location-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD5EBF51AB558E500D41F8F /* Define Location-50.png */; };
+		6CD5EBFE1AB558F500D41F8F /* ic_maps_indicator_endpoint_route.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD5EBFB1AB558F500D41F8F /* ic_maps_indicator_endpoint_route.png */; };
+		6CD5EBFF1AB558F500D41F8F /* ic_maps_indicator_startpoint_list copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD5EBFC1AB558F500D41F8F /* ic_maps_indicator_startpoint_list copy.png */; };
+		6CD5EC001AB558F500D41F8F /* ic_maps_indicator_startpoint_list.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD5EBFD1AB558F500D41F8F /* ic_maps_indicator_startpoint_list.png */; };
+		6CD5EC211AB5596000D41F8F /* ListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD5EC021AB5596000D41F8F /* ListTableViewController.m */; };
+		6CD5EC221AB5596000D41F8F /* ListTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CD5EC031AB5596000D41F8F /* ListTableViewController.xib */; };
+		6CD5EC231AB5596000D41F8F /* MapLocator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD5EC051AB5596000D41F8F /* MapLocator.m */; };
+		6CD5EC241AB5596000D41F8F /* MapLocator.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CD5EC061AB5596000D41F8F /* MapLocator.xib */; };
+		6CD5EC251AB5596000D41F8F /* MapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CD5EC071AB5596000D41F8F /* MapView.xib */; };
+		6CD5EC261AB5596000D41F8F /* MapViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD5EC091AB5596000D41F8F /* MapViewViewController.m */; };
+		6CD5EC271AB5596000D41F8F /* MKPolyline+MKPolyline_EncodedString.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD5EC0B1AB5596000D41F8F /* MKPolyline+MKPolyline_EncodedString.m */; };
+		6CD5EC281AB5596000D41F8F /* mode_transit_icon copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD5EC0C1AB5596000D41F8F /* mode_transit_icon copy.png */; };
+		6CD5EC291AB5596000D41F8F /* mode_transit_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD5EC0D1AB5596000D41F8F /* mode_transit_icon.png */; };
+		6CD5EC2A1AB5596000D41F8F /* MyLocaion.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD5EC0F1AB5596000D41F8F /* MyLocaion.m */; };
+		6CD5EC2B1AB5596000D41F8F /* NearestAttractionsListTableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD5EC111AB5596000D41F8F /* NearestAttractionsListTableTableViewController.m */; };
+		6CD5EC2C1AB5596000D41F8F /* NearestAttractionsListTableTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CD5EC121AB5596000D41F8F /* NearestAttractionsListTableTableViewController.xib */; };
+		6CD5EC2D1AB5596000D41F8F /* NearestAttractionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD5EC141AB5596000D41F8F /* NearestAttractionsViewController.m */; };
+		6CD5EC2E1AB5596000D41F8F /* NearestAttractionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CD5EC151AB5596000D41F8F /* NearestAttractionsViewController.xib */; };
+		6CD5EC2F1AB5596000D41F8F /* out_color.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD5EC161AB5596000D41F8F /* out_color.png */; };
+		6CD5EC301AB5596000D41F8F /* rideabout_directions_arrow_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD5EC171AB5596000D41F8F /* rideabout_directions_arrow_gray.png */; };
+		6CD5EC311AB5596000D41F8F /* TabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD5EC191AB5596000D41F8F /* TabViewController.m */; };
+		6CD5EC321AB5596000D41F8F /* TabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CD5EC1A1AB5596000D41F8F /* TabViewController.xib */; };
+		6CD5EC331AB5596000D41F8F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD5EC1C1AB5596000D41F8F /* ViewController.m */; };
+		6CD5EC341AB5596000D41F8F /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CD5EC1D1AB5596000D41F8F /* ViewController.xib */; };
+		6CD5EC351AB5596000D41F8F /* vm_blue_dot_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD5EC1E1AB5596000D41F8F /* vm_blue_dot_on.png */; };
+		6CD5EC361AB5596000D41F8F /* vm_gray_dot_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD5EC1F1AB5596000D41F8F /* vm_gray_dot_off.png */; };
+		6CD5EC371AB5596000D41F8F /* walk_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD5EC201AB5596000D41F8F /* walk_icon.png */; };
+		6CD9D9A01AB5B9A900DCF447 /* FavTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD9D99F1AB5B9A900DCF447 /* FavTableViewController.m */; };
+		6CD9D9A61AB5C18900DCF447 /* Like-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD9D9A51AB5C18900DCF447 /* Like-50.png */; };
+		6CD9D9A81AB5C1B200DCF447 /* Like-51.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD9D9A71AB5C1B200DCF447 /* Like-51.png */; };
+		6CD9D9AB1AB5CBB500DCF447 /* Favourites.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD9D9AA1AB5CBB500DCF447 /* Favourites.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6CD5EBE01AB5586E00D41F8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CD5EBBB1AB5586E00D41F8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CD5EBC21AB5586E00D41F8F;
+			remoteInfo = BangaloreGuide;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6CD5EBC31AB5586E00D41F8F /* BangaloreGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BangaloreGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CD5EBC71AB5586E00D41F8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CD5EBC81AB5586E00D41F8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6CD5EBCA1AB5586E00D41F8F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6CD5EBCB1AB5586E00D41F8F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6CD5EBCE1AB5586E00D41F8F /* BangaloreGuide.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BangaloreGuide.xcdatamodel; sourceTree = "<group>"; };
+		6CD5EBD61AB5586E00D41F8F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6CD5EBD91AB5586E00D41F8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6CD5EBDF1AB5586E00D41F8F /* BangaloreGuideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BangaloreGuideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CD5EBE41AB5586E00D41F8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CD5EBE51AB5586E00D41F8F /* BangaloreGuideTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BangaloreGuideTests.m; sourceTree = "<group>"; };
+		6CD5EBEF1AB558E500D41F8F /* customCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customCell.h; sourceTree = "<group>"; };
+		6CD5EBF01AB558E500D41F8F /* customCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customCell.m; sourceTree = "<group>"; };
+		6CD5EBF11AB558E500D41F8F /* customCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = customCell.xib; sourceTree = "<group>"; };
+		6CD5EBF21AB558E500D41F8F /* DeatilsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeatilsTableViewController.h; sourceTree = "<group>"; };
+		6CD5EBF31AB558E500D41F8F /* DeatilsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeatilsTableViewController.m; sourceTree = "<group>"; };
+		6CD5EBF41AB558E500D41F8F /* DeatilsTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DeatilsTableViewController.xib; sourceTree = "<group>"; };
+		6CD5EBF51AB558E500D41F8F /* Define Location-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Define Location-50.png"; sourceTree = "<group>"; };
+		6CD5EBFB1AB558F500D41F8F /* ic_maps_indicator_endpoint_route.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_maps_indicator_endpoint_route.png; sourceTree = "<group>"; };
+		6CD5EBFC1AB558F500D41F8F /* ic_maps_indicator_startpoint_list copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_maps_indicator_startpoint_list copy.png"; sourceTree = "<group>"; };
+		6CD5EBFD1AB558F500D41F8F /* ic_maps_indicator_startpoint_list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_maps_indicator_startpoint_list.png; sourceTree = "<group>"; };
+		6CD5EC011AB5596000D41F8F /* ListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListTableViewController.h; sourceTree = "<group>"; };
+		6CD5EC021AB5596000D41F8F /* ListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListTableViewController.m; sourceTree = "<group>"; };
+		6CD5EC031AB5596000D41F8F /* ListTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListTableViewController.xib; sourceTree = "<group>"; };
+		6CD5EC041AB5596000D41F8F /* MapLocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapLocator.h; sourceTree = "<group>"; };
+		6CD5EC051AB5596000D41F8F /* MapLocator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapLocator.m; sourceTree = "<group>"; };
+		6CD5EC061AB5596000D41F8F /* MapLocator.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapLocator.xib; sourceTree = "<group>"; };
+		6CD5EC071AB5596000D41F8F /* MapView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapView.xib; sourceTree = "<group>"; };
+		6CD5EC081AB5596000D41F8F /* MapViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewViewController.h; sourceTree = "<group>"; };
+		6CD5EC091AB5596000D41F8F /* MapViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewViewController.m; sourceTree = "<group>"; };
+		6CD5EC0A1AB5596000D41F8F /* MKPolyline+MKPolyline_EncodedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKPolyline+MKPolyline_EncodedString.h"; sourceTree = "<group>"; };
+		6CD5EC0B1AB5596000D41F8F /* MKPolyline+MKPolyline_EncodedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKPolyline+MKPolyline_EncodedString.m"; sourceTree = "<group>"; };
+		6CD5EC0C1AB5596000D41F8F /* mode_transit_icon copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mode_transit_icon copy.png"; sourceTree = "<group>"; };
+		6CD5EC0D1AB5596000D41F8F /* mode_transit_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mode_transit_icon.png; sourceTree = "<group>"; };
+		6CD5EC0E1AB5596000D41F8F /* MyLocaion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLocaion.h; sourceTree = "<group>"; };
+		6CD5EC0F1AB5596000D41F8F /* MyLocaion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLocaion.m; sourceTree = "<group>"; };
+		6CD5EC101AB5596000D41F8F /* NearestAttractionsListTableTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearestAttractionsListTableTableViewController.h; sourceTree = "<group>"; };
+		6CD5EC111AB5596000D41F8F /* NearestAttractionsListTableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearestAttractionsListTableTableViewController.m; sourceTree = "<group>"; };
+		6CD5EC121AB5596000D41F8F /* NearestAttractionsListTableTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NearestAttractionsListTableTableViewController.xib; sourceTree = "<group>"; };
+		6CD5EC131AB5596000D41F8F /* NearestAttractionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearestAttractionsViewController.h; sourceTree = "<group>"; };
+		6CD5EC141AB5596000D41F8F /* NearestAttractionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearestAttractionsViewController.m; sourceTree = "<group>"; };
+		6CD5EC151AB5596000D41F8F /* NearestAttractionsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NearestAttractionsViewController.xib; sourceTree = "<group>"; };
+		6CD5EC161AB5596000D41F8F /* out_color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = out_color.png; sourceTree = "<group>"; };
+		6CD5EC171AB5596000D41F8F /* rideabout_directions_arrow_gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rideabout_directions_arrow_gray.png; sourceTree = "<group>"; };
+		6CD5EC181AB5596000D41F8F /* TabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabViewController.h; sourceTree = "<group>"; };
+		6CD5EC191AB5596000D41F8F /* TabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabViewController.m; sourceTree = "<group>"; };
+		6CD5EC1A1AB5596000D41F8F /* TabViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabViewController.xib; sourceTree = "<group>"; };
+		6CD5EC1B1AB5596000D41F8F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6CD5EC1C1AB5596000D41F8F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6CD5EC1D1AB5596000D41F8F /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		6CD5EC1E1AB5596000D41F8F /* vm_blue_dot_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vm_blue_dot_on.png; sourceTree = "<group>"; };
+		6CD5EC1F1AB5596000D41F8F /* vm_gray_dot_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vm_gray_dot_off.png; sourceTree = "<group>"; };
+		6CD5EC201AB5596000D41F8F /* walk_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = walk_icon.png; sourceTree = "<group>"; };
+		6CD9D99E1AB5B9A900DCF447 /* FavTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavTableViewController.h; sourceTree = "<group>"; };
+		6CD9D99F1AB5B9A900DCF447 /* FavTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavTableViewController.m; sourceTree = "<group>"; };
+		6CD9D9A51AB5C18900DCF447 /* Like-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Like-50.png"; sourceTree = "<group>"; };
+		6CD9D9A71AB5C1B200DCF447 /* Like-51.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Like-51.png"; sourceTree = "<group>"; };
+		6CD9D9A91AB5CBB500DCF447 /* Favourites.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Favourites.h; sourceTree = "<group>"; };
+		6CD9D9AA1AB5CBB500DCF447 /* Favourites.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Favourites.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CD5EBC01AB5586E00D41F8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CD5EBDC1AB5586E00D41F8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CD5EBBA1AB5586E00D41F8F = {
+			isa = PBXGroup;
+			children = (
+				6CD5EBC51AB5586E00D41F8F /* BangaloreGuide */,
+				6CD5EBE21AB5586E00D41F8F /* BangaloreGuideTests */,
+				6CD5EBC41AB5586E00D41F8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CD5EBC41AB5586E00D41F8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CD5EBC31AB5586E00D41F8F /* BangaloreGuide.app */,
+				6CD5EBDF1AB5586E00D41F8F /* BangaloreGuideTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CD5EBC51AB5586E00D41F8F /* BangaloreGuide */ = {
+			isa = PBXGroup;
+			children = (
+				6CD5EBCA1AB5586E00D41F8F /* AppDelegate.h */,
+				6CD5EBCB1AB5586E00D41F8F /* AppDelegate.m */,
+				6CD5EC3D1AB55BC000D41F8F /* Root View Controller */,
+				6CD5EC3C1AB55B5100D41F8F /* Custom Table Cell */,
+				6CD5EC381AB55AAA00D41F8F /* Bus Search */,
+				6CD5EC391AB55B0100D41F8F /* Nearest Attractions */,
+				6CD5EC3B1AB55B3D00D41F8F /* Annotations */,
+				6CD5EC3A1AB55B2D00D41F8F /* Images */,
+				6CD9D99A1AB5B94100DCF447 /* ManagedObjtectSubClass */,
+				6CD9D9A11AB5B9C900DCF447 /* Favourites */,
+				6CD5EBD81AB5586E00D41F8F /* LaunchScreen.xib */,
+				6CD5EBCD1AB5586E00D41F8F /* BangaloreGuide.xcdatamodeld */,
+				6CD5EBD61AB5586E00D41F8F /* Images.xcassets */,
+				6CD5EBC61AB5586E00D41F8F /* Supporting Files */,
+			);
+			path = BangaloreGuide;
+			sourceTree = "<group>";
+		};
+		6CD5EBC61AB5586E00D41F8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CD5EBC71AB5586E00D41F8F /* Info.plist */,
+				6CD5EBC81AB5586E00D41F8F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6CD5EBE21AB5586E00D41F8F /* BangaloreGuideTests */ = {
+			isa = PBXGroup;
+			children = (
+				6CD5EBE51AB5586E00D41F8F /* BangaloreGuideTests.m */,
+				6CD5EBE31AB5586E00D41F8F /* Supporting Files */,
+			);
+			path = BangaloreGuideTests;
+			sourceTree = "<group>";
+		};
+		6CD5EBE31AB5586E00D41F8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CD5EBE41AB5586E00D41F8F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6CD5EC381AB55AAA00D41F8F /* Bus Search */ = {
+			isa = PBXGroup;
+			children = (
+				6CD5EC1B1AB5596000D41F8F /* ViewController.h */,
+				6CD5EC1C1AB5596000D41F8F /* ViewController.m */,
+				6CD5EC1D1AB5596000D41F8F /* ViewController.xib */,
+				6CD5EC011AB5596000D41F8F /* ListTableViewController.h */,
+				6CD5EC021AB5596000D41F8F /* ListTableViewController.m */,
+				6CD5EC031AB5596000D41F8F /* ListTableViewController.xib */,
+				6CD5EBF21AB558E500D41F8F /* DeatilsTableViewController.h */,
+				6CD5EBF31AB558E500D41F8F /* DeatilsTableViewController.m */,
+				6CD5EBF41AB558E500D41F8F /* DeatilsTableViewController.xib */,
+				6CD5EC081AB5596000D41F8F /* MapViewViewController.h */,
+				6CD5EC091AB5596000D41F8F /* MapViewViewController.m */,
+				6CD5EC071AB5596000D41F8F /* MapView.xib */,
+				6CD5EC0A1AB5596000D41F8F /* MKPolyline+MKPolyline_EncodedString.h */,
+				6CD5EC0B1AB5596000D41F8F /* MKPolyline+MKPolyline_EncodedString.m */,
+			);
+			name = "Bus Search";
+			sourceTree = "<group>";
+		};
+		6CD5EC391AB55B0100D41F8F /* Nearest Attractions */ = {
+			isa = PBXGroup;
+			children = (
+				6CD5EC131AB5596000D41F8F /* NearestAttractionsViewController.h */,
+				6CD5EC141AB5596000D41F8F /* NearestAttractionsViewController.m */,
+				6CD5EC151AB5596000D41F8F /* NearestAttractionsViewController.xib */,
+				6CD5EC101AB5596000D41F8F /* NearestAttractionsListTableTableViewController.h */,
+				6CD5EC111AB5596000D41F8F /* NearestAttractionsListTableTableViewController.m */,
+				6CD5EC121AB5596000D41F8F /* NearestAttractionsListTableTableViewController.xib */,
+				6CD5EC041AB5596000D41F8F /* MapLocator.h */,
+				6CD5EC051AB5596000D41F8F /* MapLocator.m */,
+				6CD5EC061AB5596000D41F8F /* MapLocator.xib */,
+			);
+			name = "Nearest Attractions";
+			sourceTree = "<group>";
+		};
+		6CD5EC3A1AB55B2D00D41F8F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				6CD9D9A51AB5C18900DCF447 /* Like-50.png */,
+				6CD9D9A71AB5C1B200DCF447 /* Like-51.png */,
+				6CD5EC0C1AB5596000D41F8F /* mode_transit_icon copy.png */,
+				6CD5EC0D1AB5596000D41F8F /* mode_transit_icon.png */,
+				6CD5EC161AB5596000D41F8F /* out_color.png */,
+				6CD5EC171AB5596000D41F8F /* rideabout_directions_arrow_gray.png */,
+				6CD5EC1E1AB5596000D41F8F /* vm_blue_dot_on.png */,
+				6CD5EC1F1AB5596000D41F8F /* vm_gray_dot_off.png */,
+				6CD5EC201AB5596000D41F8F /* walk_icon.png */,
+				6CD5EBF51AB558E500D41F8F /* Define Location-50.png */,
+				6CD5EBFB1AB558F500D41F8F /* ic_maps_indicator_endpoint_route.png */,
+				6CD5EBFC1AB558F500D41F8F /* ic_maps_indicator_startpoint_list copy.png */,
+				6CD5EBFD1AB558F500D41F8F /* ic_maps_indicator_startpoint_list.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		6CD5EC3B1AB55B3D00D41F8F /* Annotations */ = {
+			isa = PBXGroup;
+			children = (
+				6CD5EC0E1AB5596000D41F8F /* MyLocaion.h */,
+				6CD5EC0F1AB5596000D41F8F /* MyLocaion.m */,
+			);
+			name = Annotations;
+			sourceTree = "<group>";
+		};
+		6CD5EC3C1AB55B5100D41F8F /* Custom Table Cell */ = {
+			isa = PBXGroup;
+			children = (
+				6CD5EBEF1AB558E500D41F8F /* customCell.h */,
+				6CD5EBF01AB558E500D41F8F /* customCell.m */,
+				6CD5EBF11AB558E500D41F8F /* customCell.xib */,
+			);
+			name = "Custom Table Cell";
+			sourceTree = "<group>";
+		};
+		6CD5EC3D1AB55BC000D41F8F /* Root View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6CD5EC181AB5596000D41F8F /* TabViewController.h */,
+				6CD5EC191AB5596000D41F8F /* TabViewController.m */,
+				6CD5EC1A1AB5596000D41F8F /* TabViewController.xib */,
+			);
+			name = "Root View Controller";
+			sourceTree = "<group>";
+		};
+		6CD9D99A1AB5B94100DCF447 /* ManagedObjtectSubClass */ = {
+			isa = PBXGroup;
+			children = (
+				6CD9D9A91AB5CBB500DCF447 /* Favourites.h */,
+				6CD9D9AA1AB5CBB500DCF447 /* Favourites.m */,
+			);
+			name = ManagedObjtectSubClass;
+			sourceTree = "<group>";
+		};
+		6CD9D9A11AB5B9C900DCF447 /* Favourites */ = {
+			isa = PBXGroup;
+			children = (
+				6CD9D99E1AB5B9A900DCF447 /* FavTableViewController.h */,
+				6CD9D99F1AB5B9A900DCF447 /* FavTableViewController.m */,
+			);
+			name = Favourites;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CD5EBC21AB5586E00D41F8F /* BangaloreGuide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CD5EBE91AB5586E00D41F8F /* Build configuration list for PBXNativeTarget "BangaloreGuide" */;
+			buildPhases = (
+				6CD5EBBF1AB5586E00D41F8F /* Sources */,
+				6CD5EBC01AB5586E00D41F8F /* Frameworks */,
+				6CD5EBC11AB5586E00D41F8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BangaloreGuide;
+			productName = BangaloreGuide;
+			productReference = 6CD5EBC31AB5586E00D41F8F /* BangaloreGuide.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6CD5EBDE1AB5586E00D41F8F /* BangaloreGuideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CD5EBEC1AB5586E00D41F8F /* Build configuration list for PBXNativeTarget "BangaloreGuideTests" */;
+			buildPhases = (
+				6CD5EBDB1AB5586E00D41F8F /* Sources */,
+				6CD5EBDC1AB5586E00D41F8F /* Frameworks */,
+				6CD5EBDD1AB5586E00D41F8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CD5EBE11AB5586E00D41F8F /* PBXTargetDependency */,
+			);
+			name = BangaloreGuideTests;
+			productName = BangaloreGuideTests;
+			productReference = 6CD5EBDF1AB5586E00D41F8F /* BangaloreGuideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CD5EBBB1AB5586E00D41F8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = nivansys;
+				TargetAttributes = {
+					6CD5EBC21AB5586E00D41F8F = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					6CD5EBDE1AB5586E00D41F8F = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 6CD5EBC21AB5586E00D41F8F;
+					};
+				};
+			};
+			buildConfigurationList = 6CD5EBBE1AB5586E00D41F8F /* Build configuration list for PBXProject "BangaloreGuide" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CD5EBBA1AB5586E00D41F8F;
+			productRefGroup = 6CD5EBC41AB5586E00D41F8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CD5EBC21AB5586E00D41F8F /* BangaloreGuide */,
+				6CD5EBDE1AB5586E00D41F8F /* BangaloreGuideTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CD5EBC11AB5586E00D41F8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CD5EBFF1AB558F500D41F8F /* ic_maps_indicator_startpoint_list copy.png in Resources */,
+				6CD5EBF91AB558E500D41F8F /* DeatilsTableViewController.xib in Resources */,
+				6CD5EC321AB5596000D41F8F /* TabViewController.xib in Resources */,
+				6CD5EC221AB5596000D41F8F /* ListTableViewController.xib in Resources */,
+				6CD5EC001AB558F500D41F8F /* ic_maps_indicator_startpoint_list.png in Resources */,
+				6CD5EC301AB5596000D41F8F /* rideabout_directions_arrow_gray.png in Resources */,
+				6CD5EC251AB5596000D41F8F /* MapView.xib in Resources */,
+				6CD9D9A61AB5C18900DCF447 /* Like-50.png in Resources */,
+				6CD5EBDA1AB5586E00D41F8F /* LaunchScreen.xib in Resources */,
+				6CD5EC2F1AB5596000D41F8F /* out_color.png in Resources */,
+				6CD5EC351AB5596000D41F8F /* vm_blue_dot_on.png in Resources */,
+				6CD5EBD71AB5586E00D41F8F /* Images.xcassets in Resources */,
+				6CD5EBF71AB558E500D41F8F /* customCell.xib in Resources */,
+				6CD5EC241AB5596000D41F8F /* MapLocator.xib in Resources */,
+				6CD5EC291AB5596000D41F8F /* mode_transit_icon.png in Resources */,
+				6CD5EC2C1AB5596000D41F8F /* NearestAttractionsListTableTableViewController.xib in Resources */,
+				6CD5EC371AB5596000D41F8F /* walk_icon.png in Resources */,
+				6CD5EC281AB5596000D41F8F /* mode_transit_icon copy.png in Resources */,
+				6CD5EC2E1AB5596000D41F8F /* NearestAttractionsViewController.xib in Resources */,
+				6CD5EBFA1AB558E500D41F8F /* Define Location-50.png in Resources */,
+				6CD5EC341AB5596000D41F8F /* ViewController.xib in Resources */,
+				6CD5EC361AB5596000D41F8F /* vm_gray_dot_off.png in Resources */,
+				6CD9D9A81AB5C1B200DCF447 /* Like-51.png in Resources */,
+				6CD5EBFE1AB558F500D41F8F /* ic_maps_indicator_endpoint_route.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CD5EBDD1AB5586E00D41F8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CD5EBBF1AB5586E00D41F8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CD5EC331AB5596000D41F8F /* ViewController.m in Sources */,
+				6CD5EC271AB5596000D41F8F /* MKPolyline+MKPolyline_EncodedString.m in Sources */,
+				6CD5EBCF1AB5586E00D41F8F /* BangaloreGuide.xcdatamodeld in Sources */,
+				6CD5EC231AB5596000D41F8F /* MapLocator.m in Sources */,
+				6CD5EC261AB5596000D41F8F /* MapViewViewController.m in Sources */,
+				6CD5EBCC1AB5586E00D41F8F /* AppDelegate.m in Sources */,
+				6CD9D9A01AB5B9A900DCF447 /* FavTableViewController.m in Sources */,
+				6CD5EBF61AB558E500D41F8F /* customCell.m in Sources */,
+				6CD5EC311AB5596000D41F8F /* TabViewController.m in Sources */,
+				6CD5EC2D1AB5596000D41F8F /* NearestAttractionsViewController.m in Sources */,
+				6CD5EBF81AB558E500D41F8F /* DeatilsTableViewController.m in Sources */,
+				6CD5EC2A1AB5596000D41F8F /* MyLocaion.m in Sources */,
+				6CD5EBC91AB5586E00D41F8F /* main.m in Sources */,
+				6CD5EC211AB5596000D41F8F /* ListTableViewController.m in Sources */,
+				6CD5EC2B1AB5596000D41F8F /* NearestAttractionsListTableTableViewController.m in Sources */,
+				6CD9D9AB1AB5CBB500DCF447 /* Favourites.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CD5EBDB1AB5586E00D41F8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CD5EBE61AB5586E00D41F8F /* BangaloreGuideTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6CD5EBE11AB5586E00D41F8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CD5EBC21AB5586E00D41F8F /* BangaloreGuide */;
+			targetProxy = 6CD5EBE01AB5586E00D41F8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6CD5EBD81AB5586E00D41F8F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CD5EBD91AB5586E00D41F8F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CD5EBE71AB5586E00D41F8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6CD5EBE81AB5586E00D41F8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CD5EBEA1AB5586E00D41F8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BangaloreGuide/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6CD5EBEB1AB5586E00D41F8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BangaloreGuide/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6CD5EBED1AB5586E00D41F8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BangaloreGuideTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BangaloreGuide.app/BangaloreGuide";
+			};
+			name = Debug;
+		};
+		6CD5EBEE1AB5586E00D41F8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BangaloreGuideTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BangaloreGuide.app/BangaloreGuide";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CD5EBBE1AB5586E00D41F8F /* Build configuration list for PBXProject "BangaloreGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CD5EBE71AB5586E00D41F8F /* Debug */,
+				6CD5EBE81AB5586E00D41F8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CD5EBE91AB5586E00D41F8F /* Build configuration list for PBXNativeTarget "BangaloreGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CD5EBEA1AB5586E00D41F8F /* Debug */,
+				6CD5EBEB1AB5586E00D41F8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CD5EBEC1AB5586E00D41F8F /* Build configuration list for PBXNativeTarget "BangaloreGuideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CD5EBED1AB5586E00D41F8F /* Debug */,
+				6CD5EBEE1AB5586E00D41F8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6CD5EBCD1AB5586E00D41F8F /* BangaloreGuide.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6CD5EBCE1AB5586E00D41F8F /* BangaloreGuide.xcdatamodel */,
+			);
+			currentVersion = 6CD5EBCE1AB5586E00D41F8F /* BangaloreGuide.xcdatamodel */;
+			path = BangaloreGuide.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6CD5EBBB1AB5586E00D41F8F /* Project object */;
+}
